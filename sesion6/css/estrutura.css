@@ -1,0 +1,41 @@
+main{
+    width:1200px;
+        background-color:blueviolet;
+    margin: auto;
+    
+    }
+    header{
+       background-color: yellow;
+    
+    }
+    
+    nav{
+    float: left;
+    width: 30%;
+    
+    }
+    article{
+    
+    float: left;
+    width: 70%;
+    background-color: grey;
+    
+    }
+    
+    footer{
+    clear: both;
+    background-color: blue;
+    height: 40px;
+    
+    }
+    li´{
+    
+    list-style:none ;
+    
+    }
+    
+    h1{
+    
+    padding: 10px;
+    
+    }
