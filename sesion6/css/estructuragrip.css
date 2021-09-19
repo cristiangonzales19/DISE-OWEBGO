@@ -1,0 +1,49 @@
+
+.grid{
+margin: 0px auto;
+max-width: 1000px;
+min-height: 100vh;
+display: grid;
+grid-template-columns: 200px 1fr 200px;
+grid-template-rows: 200px 1fr 100px;
+grid-template-areas: "encabezado encabezado encabezado " "menu contenido enlace"  "pie pie pie";
+
+
+
+} 
+
+
+
+
+header {
+
+    grid-area: encabezado;
+    background-color: darkslateblue;
+  
+}
+
+nav {
+    grid-area: menu;
+    background-color: cyan;
+    
+}
+
+section {
+    grid-area: contenido;
+    background-color: darkblue;
+    
+}
+
+aside {
+    grid-area: enlace;
+    background-color: darkmagenta;
+   
+}
+footer {
+    grid-area: pie;
+  
+    background-color: darkslateblue;
+  
+}
+
+
