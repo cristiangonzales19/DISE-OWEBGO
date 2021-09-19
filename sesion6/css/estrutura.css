@@ -1,41 +1,36 @@
-main{
-    width:1200px;
-        background-color:blueviolet;
+main {
+    background-color: blueviolet;
+    width: 1000px;
     margin: auto;
-    
-    }
-    header{
-       background-color: yellow;
-    
-    }
-    
-    nav{
-    float: left;
-    width: 30%;
-    
-    }
-    article{
-    
-    float: left;
-    width: 70%;
-    background-color: grey;
-    
-    }
-    
-    footer{
+    height: 200px;
+}
+
+header {
+    background-color: darkslateblue;
+    height: 150px;
+}
+
+nav {
+    background-color: cyan;
+    width: 25%;
+}
+
+section {
+    background-color: darkblue;
+    width: 50%;
+}
+
+aside {
+    background-color: darkmagenta;
+    width: 25%;
+}
+footer {
     clear: both;
-    background-color: blue;
-    height: 40px;
-    
-    }
-    li´{
-    
-    list-style:none ;
-    
-    }
-    
-    h1{
-    
-    padding: 10px;
-    
-    }
+    background-color: darkslateblue;
+    height: 150px;
+}
+
+nav, aside, section {
+    float: left;
+    height: 300px;
+}
