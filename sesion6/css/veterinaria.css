@@ -1,0 +1,76 @@
+body {
+    
+    background-image: url("https://media.istockphoto.com/vectors/dog-bone-wallpaper-seamless-pattern-white-background-vector-id810206948?s=2048x2048");
+}
+
+section {
+    display: grid;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 450px 1fr 450px;
+    grid-template-areas: "nav contenido servicios" "footer footer footer";
+}
+
+div h2{
+    color: red;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: gray;    
+}
+
+.contenido {
+    grid-area: contenido;
+    background-color: blue;
+}
+
+.servicios {
+    grid-area: servicios;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darkslateblue;
+}
+
+.contenido-item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenido h2 {
+    font-size: 18px;
+}
+
+.img {
+    border: 1px solid;
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 10px;
+}
+
+.item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.encabezado {
+    padding: 20px;
+}
