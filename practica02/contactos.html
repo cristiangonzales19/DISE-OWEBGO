@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contacs.css" />
     <title>Document</title>
   </head>
   <body>
@@ -29,43 +30,62 @@
     <main class="grid">
       <section class="seccion">
         <div id= "noticia">
-            <h2>NOTICIAS</h2>
-            <div>
-                <h3>A diferencia de muchas de sus víctimas, el cuerpo de Abimael Guzmán estaba completo</h3>
-                <img id="imgs" src="img/img1.jpg"alt="imagen1">
-                <p class="p"> 
-                    Soñaba con un glorioso e imborrable funeral al estilo de Vladimir Lenin con
-                    millones de dolientes desfilando con banderas rojas ante su cadáver en 1924.
-                    Pero nadie despidió a Abimael Guzmán Reinoso. Nadie dijo una plegaria antes que ingresara en el
-                    horno crematorio para desaparecer para siempre. Nadie leyó un retazo de la Biblia. Nadie llevó
-                    una flor. Nadie encendió una vela. Yo estuve ahí.
-                    Creía que recibiría los honores de presidente de su fantasiosa República Popular de Nueva
-                    Democracia, como Mao Zedong al morir siendo jefe de Estado de la República Popular China en
-                    1976. Pretendía ser el digno heredero del maoísmo. Se hacía llamar la “cuarta espada” del
-                    comunismo mundial. Era un arrogante imbatible que forjó el culto a la personalidad. Y quería
-                    abandonar el mundo en olor de multitud. Pero terminó como un muerto cualquiera.
-                    Pero en la morgue del Callao no había un solo militante, ningún admirador, ni se vio la sombra
-                    de alguna forma de homenaje. Solo se escuchaba el silencio de la derrota.
-                </p>
-            </div>
-            
-            <div id>
-                <h3>Tercera VacunaFest : Mañana inicia vacunación de jóvenes de 21 años a más en Lima y Callao</h3>
-            <img id="imgs" src="img/img2.jpg"alt="imagen2">            
-                  <p class="p">
-                    Minsa anunció que este fin de semana también habrá concurso de disfraces y pijamas para los jóvenes de 23 años a más.
-                    Objetivo es llegar a 13 millones de inmunizados con ambas dosis para fines de setiembre.
-                    El Ministerio de Salud (Minsa) confirmó que este sábado 25 y domingo 26 de setiembre se desarrollará la tercera
-                    VacunaFest en todo el Perú. Con ello, se pretende ampliar más el número de dosis aplicadas contra el coronavirus y
-                    llegar al objetivo de vacunar a 13 millones de peruanos con ambas dosis. Cabe resaltar que el ministro de Salud descartó
-                    que bajen hasta los 22 años de edad en Lima, Callao e Ica.
-                    Este evento iniciará desde las 7.00 a. m. del sábado 25 hasta las 7.00 p. m. del domingo 26. Conoce todas las incidencia
-                    de último minuto y todo sobre la jornada actual de la vacunación contra la COVID-19. Revisa las noticias de HOY, 25 de
-                    setiembre, y recuerda que todas las vacunas salvan vidas.
-                  </p>            
-            
-            </div>
+        <div class="frm-grid2">
+            <h2>Para comunicarse conmigo</h2>
+            <form action="formulario.php" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" id="nombre" size="55">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" id="email" size="55">
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="Nombre" id="telefono" size="55">
+                <br>
+                <label for="mensaje">Nombre</label>
+                <textarea name="mensaje" id="mensaje" cols="56" rows="5"></textarea>
+                <br>
+                <br>
+                <center>
+                    <button type="reset" class="btn">Limpiar</button>
+                    <button class="btn">Enviar</button>
+                </center>
+                
+            </form>
         </div>
+
+    </div>
+        <div class="frm2-grid2">
+            <h3>Información de Contacto</h3>
+            <ul>
+                <li>
+                    <img
+                      class="icono"
+                      src="img/telefono.png"
+                      alt="telefono"
+                    />947013001
+                  </li>
+                  <li>
+                    <img
+                      class="icono"
+                      src="img/telefono2.png"
+                      alt="telefono2"
+                    />74774878
+                  </li>
+                  <li>
+                    <img
+                      class="icono"
+                      src="img/letra.png"
+                      alt="email"
+                    />c-l-126@hotmail.com
+                  </li>
+                  <li>
+                    <img class="icono" src="img/ubicacion.png" alt="ubicacion" />Calle
+                    Espinar #217 Chiclayo-Chiclayo-Lambayeque
+                  </li>
+                </ul>
+        </div>
+
       </section>
       <aside class="menus">
         <div class="asaide">

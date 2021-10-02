@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ENCUESTA CINEMATOGRAFICA</title>
+    
+</head>
+<body>
+
+    <div id="contenedor">
+        
+       <center> <h2>Encuesta de cine: Nominadas al Oscar 2018</h2></center>
+       <form id="formulario1" name="formulario" method="POST"action="data.php">
+<fieldset style="background-color: darkgrey;" id="datos_personales" >
+
+    <legend> <b> DATOS PERSONALES </b> </legend>
+    <label for="nombre">NOMBRE</label><br>
+    <input type="text" name="nombre" id="nombre"><br>
+
+    <label for="apellido">APELLIDO</label><br>
+    <input type="text" name="apellido" id="apellido"><br>
+
+    <label for="dni">DNI</label><br>
+    <input type="text" name="dni" id="dni" size="8" maxlength="8"><br>
+
+
+    <label for="edad">EDAD</label><br>
+    <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+
+    
+    <label for="sexo">SEXO</label><br>
+    <select id="sexo" name="sexo">
+    <option value="X"select="select">.....</option>
+    <option value="M">MASCULINO</option>
+    <option value="F">FEMENINO</option>
+
+    </select>
+</fieldset>
+<br>
+
+<Fieldset style="background-color: darkgrey;">
+<legend> <b> MEJOR PELICULA  </b> </legend>
+<input type="radio" name="pelicula01" id="pelicula01" value="PELICULA01"><label for="pelicula01">pelicula01</label><br>
+<input type="radio" name="pelicula02" id="pelicula02" value="PELICULA02"><label for="pelicula02">pelicula02</label><br>
+<input type="radio" name="pelicula02" id="pelicula03" value="PELICULA03"><label for="pelicula03">pelicula03</label><br>
+</Fieldset> <br>
+
+<fieldset style="background-color: darkgrey;">
+<legend><b>LAS PELICULAS QUE NO HAYAS VISTO </b>  </legend>
+<input type="checkbox" name="pelicula01" id="pelicula01" value="PELICULA01"><label for="pelicula01">pelicula01</label><br>
+<input type="checkbox" name="pelicula02" id="pelicula02" value="PELICULA02"><label for="pelicula02">pelicula02</label><br>
+<input type="checkbox" name="pelicula03" id="pelicula03" value="PELICULA03"><label for="pelicula03">pelicula03</label><br>
+<input type="checkbox" name="pelicula04" id="pelicula04" value="PELICULA04"><label for="pelicula04">pelicula04</label><br>
+<input type="checkbox" name="pelicula05" id="pelicula05" value="PELICULA05"><label for="pelicula05">pelicula05</label><br>
+</fieldset><br>
+
+
+<fieldset style="background-color: darkgrey;">
+    <legend> <b> ARGUMENTA DE LA PELICULA QUE MAS TE GUSTO </b> </legend>
+    <textarea id="argumento" name="argumento" rows="8" cols="50"> </textarea>
+</fieldset><br>
+
+<center><div id="botones"> </div>
+<input type="reset" value="Borrar Formulario">    
+<input type="submit" value="Enviar"></center> 
+
+        </form>
+
+    </div>
+    
+
+</body>
+
+</html>

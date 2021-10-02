@@ -1,0 +1,37 @@
+.seccion {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-template-areas: "section aside";
+}
+
+.frm-grid2 {
+    grid-area: section;
+    padding: 15px 25px;
+    background-color: rgb(103, 250, 201);
+}
+
+.frm2-grid2 {
+    grid-area: aside;
+    padding: 50px 50px;
+}
+form {
+    width: 100%;
+    padding: 25px;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+form input {
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: dodgerblue;
+    margin-left: 25px;
+}

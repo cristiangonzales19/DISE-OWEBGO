@@ -1,84 +1,124 @@
-.grid{
-    margin-top: 0px auto;
-    margin-left:150px ;
-    margin-right: 150px;
-    min-width: 1000px;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100px 50px 1fr 100px 50px; 
-    grid-template-areas:"my-header" "my-nav" "my-section" "my-aside" "my-footer" ;   
-
-  
+body{
+    margin: 0;
 }
-  
-header{
-    grid-area: my-header;
-    background-color:greenyellow ;
-    margin-left: 50px;
-}
+.Cabecera{
 
-#menu, a{
+    background-color: cyan;
+    padding: 15px;
+    height: 140px;
     
-    
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin-top: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0px;
-    background: rgb(126, 125, 126);
-    text-align: center ; 
-
-     
 }
-nav,a{
-    
-    color: rgb(2, 12, 19);
-    font-size: 14px;
-    margin-top: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0px;
-    background: rgba(254, 254, 255, 0.199);
-    text-align: center ; 
-
-}
-  
-  
-  #nombre{
-    background-color:greenyellow;
-    color: rgb(26, 24, 24);
-    text-align: center;
-    margin-bottom: 0px;
-    padding: 0px;
-    width: 1200px;
-    height: 150px;
-} 
-
-
-#foto{
-    width: 150px;
-    height: 150px;
+.Imagen img{
     float: left;
-    padding-left: 10px;  
-} 
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    border: 1px solid;
+}
 
-#foto1{
-    width: 150px;
-    height: 100px;
-    float: right;
-    padding-left: 10px;  
+
+#menuprincipal {
+    text-align: center;
+    background-color: black;
+  margin: -16px 0;
+
 }
-#foto2{
-    width: 150px;
-    height: 100px;
-    float: right;
-    padding-left: 10px;  
+#menuprincipal a {
+   
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+
 }
-#parrafo1{
-    text-align: justify;
+#menuprincipal li{
+   
+    display: inline-block;
+   width: 300px;
+   border: 1px solid white;
 }
-#parrafo2{
-    text-align: justify;
+.grid{
+    display: grid;
+    grid-template-areas: "seccion menus";
+    grid-template-columns: 1fr 300px;
+
+}
+.seccion{
+    grid-area: seccion;
+}
+.menus{
+    grid-area: menus;
+    background-color: aquamarine;
+}
+#noticia{
+    padding: 15px;
+}
+#imgs{
+float: right;
+width: 130px;
+height: 130px;
+}
+
+
+.piegrid{
+
+    display: grid;
+grid-template-areas: "pie1" "pie2";
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+}
+
+.pie1{
+
+  grid-area: pie1; 
+  background-color:aqua; 
+}
+
+.pie2{
+    text-align: center;
+    grid-area: pie2;
+        color: blanchedalmond;
+background-color:black;
+}
+
+
+.alineacion{
+
+    display: inline-block;
+    
+   
+  }
+
+  .alineacion li{
+margin-left: 50px;
+
+
+  }
+
+  .p{
+      text-align: justify;
+      width: 1000px;
+  }
+  .img2 {
+    
+    margin-left: 20px;
+    width: 100px;
+    height: 110px;
+    border: 1px solid;
+  }
+h4{
+    margin-left: 60px; 
+}
+
+.asaide{
+
+    background-color:darkcyan;
+    margin: 10px 40px;
+    padding: 1px;
+}
+.icono{
+   
+    width: 25px;
+    height: 15px;
+    
 }
