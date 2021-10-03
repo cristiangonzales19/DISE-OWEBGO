@@ -1,0 +1,10 @@
+I.- Implementar procedimientos almacenados para el mantenimiento de la tabla Products
+En todos los casos el codigo o pk se debe generar en funcion al maximo valor de la columna, tal cual lo hemos visto en clase
+1.- Agregar un producto
+2.- Modificar un producto
+3.- Eliminar un producto
+4.- Ingresado una categoria listar los productos de esa categoria. Debe listar la siguiente informacion
+	Codigo producto, Nombre Producto, Precio, Stock	
+
+II.- Implementar una funcion que retorne el monto de un pedido ingresado el numero de pedido
+
