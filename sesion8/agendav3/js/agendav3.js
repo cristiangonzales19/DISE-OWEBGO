@@ -54,4 +54,4 @@ function actualizarDatos() {
             <span class="nom datosEmail"> ${datos.email}</span></li><br>`;
         }
     }
-    document.getElementById('contactos').innerHTML = registro;
+    document.getElementById('contactos').innerHTML = registro;}
