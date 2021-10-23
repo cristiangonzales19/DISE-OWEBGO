@@ -1,0 +1,11 @@
+.corazon{
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -30%) rotate(-45 deg);
+background: red;
+width: 200px;
+height: 200px;
+position: absolute;
+
+}
