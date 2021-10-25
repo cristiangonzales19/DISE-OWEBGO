@@ -1,0 +1,40 @@
+p::first-letter{
+font-size:2rem;
+}
+.pf2::first-letter{
+    float: left;
+    font-family: 'Times New Roman';
+    font-size:400%;
+    font-weight: bolder;
+}
+.seudoEle{
+    border:2px solid black;
+    width :10%;
+    text-align: center;
+}
+
+.seudoEle::before{
+    content: 'hola';
+    background-color: red;
+}
+
+.seudoEle::after{
+    content: 'PERÚ';
+    background-color: red;
+}
+
+.seudoCla:hover{
+    background-color: yellow;
+}
+a:hover{
+    color:red;
+}
+/*  para selectores tipo <a> */
+a:focus{
+    color:green;
+
+/*  para selectores tipo <a> */
+}
+a:active{
+    color: hotpink;
+}
