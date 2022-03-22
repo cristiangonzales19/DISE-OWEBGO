@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    font-weight: 700;
+}
+
+.cabecera {
+    border-bottom: 2px solid rgb(254, 242, 0);
+    border-top: 2px solid rgb(254, 242, 0);
+}
+
+.img-mifarma {
+    width: 300px;
+}
+
+.img-carrusel {
+    height: 500px;
+    width: -10px;
+}
+
+.list-group-item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color {
+    background-color: rgb(254, 242, 0);
+}
+
+.ddd {
+    padding: 0;
+    margin-left: -6px;
+}
+
+.img-carrito-compras {
+    width: 150px;
+}
+
+.btn-compras {
+    text-decoration: none;
+    color: white;
+    padding: 9px 70px;
+}
+
+.btn-compras:hover {
+    background-color: transparent !important;
+}
+
+.nav-item:hover {
+    background-color: rgb(254, 242, 0);
+    font-size: 20px;
+    transition: .1s;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(0, 166, 81);
+    transition: .7s;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 166, 81);
+    padding: 30px 145px;
+}
+
+.horario {
+    border-bottom: 2px solid white;
+    margin: 0 45px;
+}
+
+
+/* Carrito */
+
+.item-details>.item-price {
+    margin: 0;
+}
+
+
+/* ? SHOPPING CART */
+
+.shopping-cart-items {
+    padding: 20px 0px;
+}
+
+.shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+}
+
+.titulo {
+    font-size: 80px;
+    color: rgb(0, 166, 81);
+    margin-left: 100px;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2301a752' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2301a752' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}

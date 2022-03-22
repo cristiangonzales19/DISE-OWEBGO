@@ -1,0 +1,38 @@
+/* .buscar {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 51%;
+    top: 180px; 
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid rgb(83, 83, 83);
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(117, 116, 116);
+    font-size: 14px;
+    float: left;
+    width: 330px;
+}
+
+.boton {
+    width: 20px;
+    height: 35px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+}
+
+.boton:hover {
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+    transition: all .1s;
+} */

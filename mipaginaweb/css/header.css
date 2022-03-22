@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;900&family=Roboto:wght@100;300;500;900&display=swap');
+@import url(buscar.css);
+@import url(carrito.css);
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .logo img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+} 
+
+
+/*icono y boton de carrito* 
+
+.shopping {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 83%;
+    top:100px;
+    padding: 10px;
+    height: 40px;
+}
+
+.shopping .fa-shopping-cart {
+    color: rgb(255, 128, 0);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.shopping .dropdown-toggle {
+    background: none;
+    color: rgb(97, 97, 97);
+    border: solid rgb(83, 83, 83);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.shopping .dropdown-toggle:hover {
+    color: rgb(255, 128, 0);
+} */

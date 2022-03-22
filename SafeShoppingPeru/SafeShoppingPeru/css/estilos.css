@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;900&family=Roboto:wght@100;300;500;900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #eee;
+}
+
+
+/*logo*/
+
+.logo img {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 80px;
+}
+
+
+/*menu*/
+
+nav {
+    text-align: right;
+    padding: 10px 20px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(112, 39, 160);
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+}
+
+nav a div {
+    margin-right: 5px;
+}
+
+.header .icons div {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons div:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+
+/*icono menu barra*/
+
+#menu-btn {
+    display: none;
+}
+
+
+/*buscar*/
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid rgb(83, 83, 83);
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(117, 116, 116);
+    font-size: 14px;
+    float: left;
+    width: 330px;
+}
+
+.boton {
+    width: 20px;
+    height: 35px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+}
+
+.boton:hover {
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+    transition: all .1s;
+}
+
+
+/*icono y boton de carrito*/
+
+.shopping {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 83%;
+    top: 18.5%;
+    padding: 10px;
+    height: 40px;
+}
+
+.shopping .fa-shopping-cart {
+    color: rgb(255, 128, 0);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.shopping .dropdown-toggle {
+    background: none;
+    color: rgb(97, 97, 97);
+    border: solid rgb(83, 83, 83);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.shopping .dropdown-toggle:hover {
+    color: rgb(255, 128, 0);
+}
+
+
+/*menu para las categorias*/
+
+.categorias {
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 35%;
+}
+
+.dropdown {
+    padding-left: 30px;
+    background: rgb(255, 128, 0);
+    border-radius: 5px;
+    border: solid rgb(255, 128, 0);
+}
+
+.categorias .dropdown-toggle {
+    color: white;
+    margin-right: 45px;
+}
+
+.categorias .dropdown-toggle:hover {
+    color: rgb(153, 45, 6);
+}
+
+
+/*boton de WhatsApp y Catálago*/
+
+.botones {
+    display: flex;
+    position: absolute;
+    left: 78%;
+    top: 35.5%;
+}
+
+.botones .btn {
+    background: rgb(112, 39, 160);
+    color: white;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.botones .btn:hover {
+    color: rgb(255, 128, 0);
+}
+
+
+/* carrusel*/
+
+.row .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    padding-left: 29px;
+    padding-right: 31px;
+}
+
+
+/* medios de pago*/
+
+.medio_pago {
+    display: flex;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 87%;
+    background: rgb(255, 128, 0);
+    border-radius: 5px;
+    border: solid rgb(255, 128, 0);
+    padding-left: 55px;
+    padding-right: 5px;
+}
+
+.medio_pago .card {
+    background: none;
+    border: none;
+    color: white;
+    top: 8%;
+    justify-items: center;
+}
+
+.medio_pago .card:hover {
+    color: rgb(153, 45, 6);
+}
+
+.imagenes img {
+    width: 60px;
+    height: 60px;
+    margin-left: 48%;
+}
+
+.medio_pago .card-text {
+    font-size: 12px;
+}
+
+
+/* texto descubre*/
+
+.descubre-promocion {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    left: 1%;
+}
+
+
+/* promocion de productos*/
+
+.productos {
+    display: flex;
+    position: absolute;
+    top: 109%;
+    left: 1%;
+}
+
+section .texto {
+    color: rgb(112, 39, 160);
+}
+
+.productos .col .card {
+    display: flex;
+    left: 5%;
+    margin-right: 50px;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    position: absolute;
+    top: 139%;
+    left: 0;
+    right: 0;
+    padding-left: 55px;
+    padding-right: 5px;
+    line-height: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer i {
+    font-size: 12px;
+}
+
+footer .btn {
+    font-size: 12px;
+}
+
+footer p:hover {
+    color: rgb(153, 45, 6);
+}
+
+
+/* Index Productos*/
+
+
+/* menu despegable*/
+
+.abdominales ol {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+}
+
+
+/* titulo-abdominales*/
+
+.titulo-abdominales {
+    display: flex;
+    position: absolute;
+    top: 49%;
+    left: 42%;
+    color: rgb(112, 39, 160);
+}
+
+
+/* img de los productos*/
+
+.abdominales-img {
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    right: 0;
+}
+
+.abdominales-img img {
+    height: 100px;
+    width: 100px;
+    transform: translate(90%, 10%);
+}
+
+.abdominales-img .card {
+    background: none;
+    border: none;
+}
+
+.abdominales-img .text-center {
+    margin-right: 40px;
+}
+
+.abdominales-img a {
+    background: rgb(255, 128, 0);
+    color: white;
+}
+
+.abdominales-img a:hover {
+    color: rgb(153, 45, 6);
+}
+
+
+/* interfaz realizar pago*/
+
+.moneda img {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 200%;
+    left: 76%;
+}
+
+.moneda h6 {
+    display: flex;
+    position: absolute;
+    top: 214%;
+    left: 79%;
+    color: rgb(112, 39, 160);
+}
+
+
+/* finalizar compra*/
+
+.finalizar img {
+    display: flex;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 34%;
+    left: 3%;
+}
+
+.finalizar h5 {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    color: rgb(112, 39, 160);
+}
+
+
+/*tabla vista productos*/
+
+.tabla-producto {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.tabla-producto .table {
+    border: rgb(112, 39, 160);
+}
+
+.tabla-producto td {
+    color: rgb(112, 39, 160);
+}
+
+
+/* finalizar compras*/
+
+.finalizar-pago {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+
+.finalizar-pago .card {
+    background: rgb(255, 128, 0);
+    border: 3px solid rgb(112, 39, 160);
+    color: white;
+}
+
+.finalizar-pago .boton1 {
+    background: white;
+    color: rgb(112, 39, 160);
+    width: 280px;
+}
+
+.finalizar-pago .boton2 {
+    background: rgb(112, 39, 160);
+    color: white;
+}
+
+.finalizar-pago .boton2:hover {
+    color: black;
+}
+
+
+/*seguir comprando*/
+
+.seguir ol {
+    display: flex;
+    position: absolute;
+    top: 110%;
+    left: 77%;
+}
+
+
+/* CONTÁCTANOS*/
+
+.titulo-contactanos {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    color: rgb(112, 39, 160);
+}
+
+
+/* call center*/
+
+
+/* imagen y letra*/
+
+.call-center {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 5px;
+}
+
+.call-center h2 {
+    color: rgb(112, 39, 160);
+}
+
+.call-center .card-img-top {
+    width: 65%;
+    height: 80%;
+}
+
+
+/*crear cuenta*/
+
+.crear-cuenta {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 56%;
+}
+
+.crear-cuenta .card {
+    background-color: rgb(255, 128, 0);
+}
+
+.crear-cuenta .form-control {
+    transform: translate(1%, 10%);
+}
+
+
+/* mensajeria contactanos*/
+
+
+/*boton enviar*/
+
+.mensajeria .btn {
+    border: 2px solid rgb(112, 39, 160);
+}
+
+.mensajeria .btn:hover {
+    background: rgb(112, 39, 160);
+}
+
+
+/* crear cuenta*/
+
+.cuenta2 {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+}
+
+.cuenta2 .card {
+    background-color: rgb(255, 128, 0);
+}
+
+.cuenta2 .form-check {
+    transform: translate(20%, 10%);
+}
+
+
+/*boton registarse*/
+
+.cuenta2 .btn {
+    border: 2px solid rgb(112, 39, 160);
+}
+
+.cuenta2 .btn:hover {
+    background: rgb(112, 39, 160);
+}
+
+
+/* cuneta existente*/
+
+.cuenta3 {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 56%;
+}
+
+.cuenta3 .card {
+    background-color: rgb(255, 128, 0);
+}
+
+
+/*boton registarse*/
+
+.cuenta3 .btn {
+    border: 2px solid rgb(112, 39, 160);
+}
+
+.cuenta3 .btn:hover {
+    background: rgb(112, 39, 160);
+}
+
+
+/* botones de google y facebook*/
+
+
+/*boton de google*/
+
+.botongoogle {
+    display: flex;
+    position: absolute;
+    top: 105%;
+    left: 66%;
+    width: 250px;
+}
+
+.botongoogle .btn {
+    border: 2px solid rgb(112, 39, 160);
+}
+
+.botongoogle .btn:hover {
+    background: rgb(112, 39, 160);
+    color: white;
+}
+
+
+/*boton de facebook*/
+
+.botonfacebook {
+    display: flex;
+    position: absolute;
+    top: 115%;
+    left: 66%;
+    width: 300px;
+}
+
+.botonfacebook .btn {
+    border: 2px solid rgb(112, 39, 160);
+}
+
+.botonfacebook .btn:hover {
+    background: rgb(112, 39, 160);
+    color: white;
+}
+
+
+/* texto nosotros*/
+
+.textonosotros {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+}
+
+
+/* video publicitario */
+
+.videopublicidad {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.videopublicidad iframe {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* comentarios*/
+
+.comentarios .row {
+    position: absolute;
+    top: 58%;
+    left: 2%;
+    right: 2%;
+}
+
+.comentarios .review-slider .box img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.comentarios .review-slider .box p {
+    line-height: 1.5;
+    color: rgb(112, 39, 160);
+    font-size: 1rem;
+}
+
+.comentarios .review-slider .box h3 {
+    padding-bottom: .5rem;
+    color: rgb(112, 39, 160);
+    font-size: 1.5rem;
+}
+
+.comentarios .review-slider .box .stars i {
+    color: rgb(255, 128, 0);
+    font-size: 1.7rem;
+}
+
+
+/* elegir tiendas*/
+
+.tiendas .container {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 12%;
+    width: 69%;
+    height: 38%;
+    background: rgb(255, 128, 0);
+}
+
+.tiendas h5 {
+    color: white;
+}
+
+.tiendas .form-select {
+    color: rgb(112, 39, 160);
+}
+
+
+/* ubicacion en mapa*/
+
+
+/* mapa de peru */
+
+.mapa-chiclayo iframe {
+    display: flex;
+    position: absolute;
+    top: 97%;
+    left: 12%;
+    width: 69%;
+    height: 40%;
+}

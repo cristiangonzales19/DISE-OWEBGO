@@ -1,0 +1,28 @@
+/* .shopping {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 83%;
+    top: 160px;
+    padding: 10px;
+    height: 40px;
+}
+
+.shopping .fa-shopping-cart {
+    color: rgb(255, 128, 0);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.shopping .dropdown-toggle {
+    background: none;
+    color: rgb(97, 97, 97);
+    border: solid rgb(83, 83, 83);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.shopping .dropdown-toggle:hover {
+    color: rgb(255, 128, 0);
+} */

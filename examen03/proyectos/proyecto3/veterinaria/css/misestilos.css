@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100%;
+}
+
+#cover {
+    background: #222 url(../img/perro.webp) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+}

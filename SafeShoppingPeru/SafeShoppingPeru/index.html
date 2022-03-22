@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Safe Shopping Perú</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- logo-->
+        <div data-anijs="if: mouseover, do: pulse animated">
+            <a href="index.html" class="logo"><img src="img/safeshoppingperulogo.png" alt=""></a>
+        </div>
+
+        <!-- menu-->
+        <nav class="navbar justify-content-end">
+          
+              
+            <a href="index.html">Inicio</a>
+
+            <a href="nosotros.html">Nosotros</a>
+            <a href="testimonio.html">Testimonio</a>
+            <a href="nuestrastiendas.html">
+                <div class="fas fa-map-marker-alt" id="login-btn"></div>Nuestras Tiendas</a>
+            <a href="contactanos.html">Contáctanos</a>
+            <a href="micuenta.html">
+                <div class="fas fa-user" id="login-btn"></div>Mi Cuenta</a>
+
+            <!-- icono menu barra-->
+            
+        </div>
+        </nav>
+
+        <div class="buscar">
+            <input type="search" class="buscar_texto" placeholder="Buscar........">
+            <a href="" class="boton">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <!-- icono menu barra-->
+
+
+
+        <!-- icono y boton de carrito-->
+        <div class="shopping">
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+          Mis Compras
+        </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button">Action</button></li>
+                <li><button class="dropdown-item" type="button">Another action</button></li>
+                <li><button class="dropdown-item" type="button">Something else here</button></li>
+            </ul>
+        </div>
+        <!-- icono y boton de carrito-->
+    </header>
+
+
+
+    <!-- menu para las categorias-->
+    <section class="categorias">
+        <div class="dropdown">
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Ejercitadores
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="productos.html">Abdominales</a></li>
+                <li><a class="dropdown-item" href="#">Piernas</a></li>
+                <li><a class="dropdown-item" href="#">Pectorales</a></li>
+            </ul>
+
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Hogar
+              </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Kids
+              </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Salud y Belleza
+              </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item " href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Bienestar
+              </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <!-- menu para las categorias-->
+    </section>
+
+
+
+    <!-- boton de WhatsApp y Catálago-->
+    <div class="botones">
+        <button type="button" class="btn  btn-lg" data-anijs="if: mouseover, do: bounceIn animated">WhatsApp</button>
+        <button type="button" class="btn btn-lg" data-anijs="if: mouseover, do: bounceIn animated">Catálago</button>
+    </div>
+    <!-- boton de WhatsApp y Catálago-->
+
+
+
+
+    <!-- carrusel-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/portada.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/portada.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/portada.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+                </div>
+            </div>
+        </div>
+        <!-- carrusel-->
+    </section>
+
+
+    <section>
+        <!-- medios de pago-->
+        <div class="medio_pago">
+            <div class="col">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="" class="imagenes">
+                                <img src="img/delivery-carrito.png" class="card-img-top" data-anijs="if: mouseover, do: flash animated" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title">ENVIO SEGURO</h6>
+                                <h6 class="card-text">A TODO EL PERÚ</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="" class="imagenes">
+                                <img src="img/whatsapp1.png" class="card-img-top" data-anijs="if: mouseover, do: flash animated" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title">WHATSAPP</h6>
+                                <h6 class="card-text">COMPRA AHORA</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="" class="imagenes">
+                                <img src="img/billete-de-banco (1).png" class="card-img-top" data-anijs="if: mouseover, do: flash animated" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title">MEDIOS DE PAGO</h6>
+                                <h6 class="card-text">PAGA DESDE CASA</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="" class="imagenes">
+                                <img src="img/dinero (1).png" class="card-img-top" data-anijs="if: mouseover, do: flash animated" alt="..."></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6 class="card-title">HASTA 6 CUOTAS</h6>
+                                <h6 class="card-text">SIN INTERESES</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- medios de pago-->
+    </section>
+
+
+
+    <!-- texto descubre nuestras promociones-->
+
+    <section class="descubre-promocion">
+        <div class="container">
+            <div class="texto pulse">
+                <h4>DESCUBRE AQUÍ NUESTRAS MEJORES PROMOCIONES </h4>
+            </div>
+    </section>
+    <!-- texto descubre nuestras promociones-->
+
+
+
+    <!--imagnes promocion-->
+    <section class="productos">
+        <div class="col">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="3000">
+                <img src="img/producto1.png" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="3000">
+                <img src="img/producto2.png" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="3000">
+                <img src="img/producto3.png" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="3000">
+                <img src="img/producto4.png" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+    </section>
+    <!--imagnes promocion-->
+
+
+
+
+    <footer class="text-center text-white" style="background:rgb(112, 39, 160);">
+        <div class="container text-center text-md-start mt-4 ">
+            <div class="row ">
+
+                <!-- COLUMNA -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                    <h6 class="text-uppercase">Contáctanos</h6>
+                    <p><i class="fas fa-phone"></i> Lima: +51 1234567</p>
+                    <p><i class="fas fa-phone "></i> Provincia: +74 123456</p>
+                </div>
+
+                <!-- COLUMNA -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                    <h6 class="text-uppercase">Siguenos en </h6>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-google"></i></a>
+                </div>
+
+                <!-- COLUMNA -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                    <h6 class="text-uppercase">Atención al Cliente</h6>
+                    <p>Tutorial de Compra</p>
+                    <p>Horario de Atención</p>
+                    <p>Preguntas Frecuentes</p>
+                </div>
+
+                <!-- COLUMNA -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                    <h6 class="text-uppercase">Información</h6>
+                    <p>Términos y Condiciones</p>
+                    <p>Políticas de Privacidad</p>
+                    <p>Trabaja con Nosotros</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/estilos.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
